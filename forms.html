@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms learning OMG YAY!</title>
+  </head>
+  <body>
+    <main>
+      <h1>Forms!!!!1!!</h1>
+      <form>
+        <p>
+          <label for="gk">Hello there!</label>
+          <input id="gk" type="text" placeholder="general kenobi!" />
+        </p>
+        <p>
+          <label for="color">Pick a color</label>
+          <input type="color" id="colors" />
+        </p>
+        <p>
+          <label for="file">Pick a file NOW</label>
+          <input type="file" id="file" />
+        </p>
+        <p>
+          <label for="num">Enter a number</label>
+          <input type="number" id="num" />
+        </p>
+        <button type="button">Submit</button>
+      </form>
+      <br /><br /><br />
+      <form action="https://www.google.com/search">
+        <label for="goog">Hijack Google</label>
+        <input type="text" id="goog" name="q" />
+        <button>Conduct illegal search</button>
+      </form>
+      <br />
+      <form action="https://www.youtube.com/results">
+        <label for="youtube">Hijack YouTube</label>
+        <input type="text" id="youtube" name="search_query" />
+        <button>Conduct illegal search</button>\<br />
+        <p>choose t-shirt size</p>
+        <label for="xs">Extra Small</label>
+        <input type="radio" name="size" id="xs" />
+        <label for="s">Small</label>
+        <input type="radio" name="size" id="s" /> <label for="m">Medium</label>
+        <input type="radio" name="size" id="m" />
+        <select name="size" id="size">
+          <option value="Default">Please choose your size</option>
+          <option value="Large">Large</option>
+          <option value="XL">XL</option>
+          <option value="XXL">XXL</option>
+        </select><br><br>
+        <input type="range" min="0" max="10">Choose volume</input><br><br>
+        <textarea id="ls" rows="10" cols="50" placeholder="Please detail your life's story"></textarea>
+        <label for="cookie">Pick the best cookie</label><br><br>
+        <select name="cookie" id="cookie">
+          <option value="ChocChip">Chocolate Chip</option>
+          <option value="OatRais">Oatmeal Raisin</option>
+          <option value="Butterscotch">Butterscotch</option>
+          <option value="M&M">M&M</option>
+        </select>
+      </form>
+    </main>
+  </body>
+</html>
